@@ -318,7 +318,7 @@ const CartItems = useSelector((state) => state.cart.items);
             className="product-button"
             onClick={() => handleAddToCart(plant)} // Handle adding plant to cart
           >
-            Add to Cart
+         {addedToCart[plant.name] ? "Added to Cart" : "Add to Cart"}
           </button>
         </div>
       ))}
