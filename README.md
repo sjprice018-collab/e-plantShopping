@@ -1,4 +1,5 @@
 # e-plantShopping
+Repository name: e-plantShopping
 
 ## Project Overview
 
