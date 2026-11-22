@@ -53,8 +53,6 @@ const handleRemove = (item) => {
     const costAsNumber = parseFloat(item.cost.substring(1));
     totalCost += quantity * costAsNumber;
     return totalCost;
-};
-
   };
 
   return (
